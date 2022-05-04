@@ -43,7 +43,7 @@ div.container {
     height: 50%;
     animation-name: apparitionSecond;
     animation-duration: 2s;
-    background-color: rgb(254, 109, 36);
+    background-color: rgb(219, 91, 27);
 }
 
 @keyframes apparitionSecond {
@@ -53,7 +53,7 @@ div.container {
     }
     to {
         height: 50%;
-        background-color: rgb(254, 109, 36);
+        background-color: rgb(70, 158, 12);
     }
 }
 
@@ -61,7 +61,7 @@ div.container {
     height: 20%;
     animation-name: apparitionThird;
     animation-duration: 2s;
-    background-color: rgb(13, 89, 147);
+    background-color: rgb(26, 91, 141);
 }
 
 @keyframes apparitionThird {
