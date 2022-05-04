@@ -1,0 +1,76 @@
+.container {
+    width: 80vw;
+    margin: auto;
+}
+
+div.container {
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top: 35px;
+    justify-content: center;
+}
+
+.step {
+    height: 0%;
+    border: 1px solid black;
+    width: 20vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+.clearStepFirst {
+    height: 80%;
+    animation-name: apparitionFirst;
+    animation-duration: 2s;
+    background-color: rgb(236, 211, 19);
+}
+
+@keyframes apparitionFirst {
+    from {
+        height: 0px;
+        background-color: grey;
+    }
+    to {
+        height: 80%;
+        background-color: rgb(236, 211, 19);
+    }
+}
+
+.clearStepSecond {
+    height: 50%;
+    animation-name: apparitionSecond;
+    animation-duration: 2s;
+    background-color: rgb(254, 109, 36);
+}
+
+@keyframes apparitionSecond {
+    from {
+        height: 0px;
+        background-color: grey;
+    }
+    to {
+        height: 50%;
+        background-color: rgb(254, 109, 36);
+    }
+}
+
+.clearStepThird {
+    height: 20%;
+    animation-name: apparitionThird;
+    animation-duration: 2s;
+    background-color: rgb(13, 89, 147);
+}
+
+@keyframes apparitionThird {
+    from {
+        height: 0px;
+        background-color: grey;
+    }
+    to {
+        height: 20%;
+        background-color: rgb(13, 89, 147);
+    }
+}
